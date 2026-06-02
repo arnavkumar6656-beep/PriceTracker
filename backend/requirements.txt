@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+playwright
+apscheduler
+python-dotenv
+httpx
+pydantic

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #3b82f6;
+  --color-brand-hover: #2563eb;
+  --color-bg-main: #0f172a; /* slate-900 */
+  --color-bg-card: #1e293b; /* slate-800 */
+  --color-text-main: #f8fafc; /* slate-50 */
+  --color-text-muted: #94a3b8; /* slate-400 */
+  --color-border: #334155; /* slate-700 */
+  --color-danger: #ef4444; /* red-500 */
+  --color-success: #22c55e; /* green-500 */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
+  }
+}
+
+/* Base custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-main); 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border); 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted); 
+}

@@ -1,0 +1,30 @@
+{
+  "amazon.in": {
+    "site_name": "Amazon India",
+    "title": "#productTitle",
+    "price": [
+      ".a-price.a-text-price.a-size-medium.apexPriceToPay span.a-offscreen",
+      "#priceblock_ourprice",
+      "#priceblock_dealprice",
+      ".a-price .a-offscreen"
+    ],
+    "image": "#landingImage, #imgBlkFront"
+  },
+  "flipkart.com": {
+    "site_name": "Flipkart",
+    "title": "span.VU-ZEz",
+    "price": [
+      "div.Nx9bqj.CrvsUO",
+      "div._30jeq3._16Jk6d"
+    ],
+    "image": "img.DByuf4, img._396cs4, img._2r_T1I"
+  },
+  "croma.com": {
+    "site_name": "Croma",
+    "title": "h1.pd-title",
+    "price": [
+      "span.amount"
+    ],
+    "image": "div.image-zoom-container img, img.product-img"
+  }
+}
